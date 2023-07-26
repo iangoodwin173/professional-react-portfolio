@@ -1,34 +1,64 @@
+/* imageSlider.css */
+
+/* Center the entire ImageSlider component on the page */
 .image-slider {
     text-align: center;
     overflow: hidden;
+    margin: 0 auto; /* Add this line to center the element horizontally */
+    border-radius: 5px;
   }
   
+  /* Set a fixed width for the .image-container to keep the images centered */
   .image-container {
     display: flex;
+    flex-direction: column; /* Set the flex direction to column to stack the image and text */
+    align-items: center; /* Center the content horizontally */
     transition: transform 0.5s ease-in-out;
-    width: 400px; /* Set the width to 400px */
+    width: 600px; /* Set the width to 400px */
     overflow: hidden; /* Hide the overflow to show only one image at a time */
+    margin: 0 auto; /* Add this line to center the element horizontally */
+    border-radius: 5px;
   }
   
   .image {
-    width: 400px; /* Set the width to 400px */
+    width: 600px; /* Set the width to 400px */
     height: 400px; /* Set the height to 400px */
     object-fit: cover;
+    border-radius: 5px;
+    padding: 1px;
   }
   
   /* Make sure to set the width of .image-container to (number of images) * 400px */
   .image-container.active {
-    transform: translateX(-400px);
+    transform: translateX(-100px);
+    border-radius: 10px;
   }
   
   .image.active {
     opacity: 1;
+    border-radius: 10px;
   }
   
   .image:not(.active) {
-    opacity: 0.5;
+    opacity: 1;
+    border-radius: 10px;
+  }
+  
+  .image-text {
+    margin-top: 10px; /* Add some top margin to separate the text from the image */
+    font-size: 18px; /* Add font-size or adjust it as per your preference */
+    font-family: 'GolfItalic';
+    font-size: 24px;
+    color: lightgreen;
+    text-shadow: 2px 2px 3px #000;
   }
   
   button {
     margin: 10px;
+    border-radius: 5px;
+  }
+
+  .project-tagline {
+    color: lightgreen;
+    text-shadow: 2px 2px 3px #000;
   }

@@ -48,10 +48,10 @@ function Home() {
   return (
     <div className={`fade-in ${isMounted ? 'visible' : ''}`}>
         
-      <h1 className="title-text">Ian Goodwin: Full-Stack Developer</h1>
+      <h1 style={{ fontFamily: 'GolfBoldItalic', fontSize: '100px' }}className="title-text">Ian Goodwin: Full-Stack Developer</h1>
   
       
-      <p className="typing-text">
+      <p style={{ fontFamily: 'GolfItalic', fontSize: '30px' }}className="typing-text">
             {text}
       </p>
     </div>

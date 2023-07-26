@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'GolfRegular';
+    src: url('./fonts/Golf.ttf') format('truetype');
+    
+  }
+  
+  @font-face {
+    font-family: 'GolfBold';
+    src: url('./fonts/GolfBold.ttf') format('truetype');
+    
+  }
+
+  @font-face {
+    font-family: 'GolfBoldItalic';
+    src: url('./fonts/GolfBoldItalic.ttf') format('truetype');
+    
+  }
+
+  @font-face {
+    font-family: 'GolfItalic';
+    src: url('./fonts/GolfItalic.ttf') format('truetype');
+    
+  }

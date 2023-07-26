@@ -13,7 +13,7 @@
   
   
   .nav-item a {
-    color: black;
+    color: #CCB9AB;
     text-decoration: none;
     font-size: large;
     margin: 10px;
@@ -21,7 +21,7 @@
  
   
   .nav a:hover {
-    color: red; /* Optional hover color */
+    color: white; /* Optional hover color */
     text-decoration: underline;
   }
   

@@ -1,0 +1,19 @@
+/* about.css */
+
+/* Style the container for the About section */
+.About-header {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  /* Style the tagline text */
+  
+.tagline-text {
+    font-family: 'GolfItalic';
+    font-size: 40px;
+    color: lightgreen;
+    text-shadow: 2px 2px 3px #000;
+  }
+  
+  /* Add more CSS rules as needed to further style your About component */
+  

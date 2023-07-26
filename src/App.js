@@ -5,6 +5,9 @@ import NavTabs from './components/nav';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import About from './pages/about';
 import Projects from './pages/projects';
+import Contact from './pages/contact';
+import './fonts.css';
+
 
 
 
@@ -32,7 +35,7 @@ function App() {
       <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/projects" component={Projects} />
-            
+            <Route exact path="/contact" component={Contact} />
             <Route exact path="/about" component={About} />
             
       </Switch>

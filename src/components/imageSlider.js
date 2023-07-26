@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import '../style/imageSlider.css';
 
-class ImageSlider extends React.Component {
+class ImageSlider extends Component {
   state = {
     currentIndex: 0,
   };
@@ -21,16 +21,20 @@ class ImageSlider extends React.Component {
 
   render() {
     const { currentIndex } = this.state;
-    const { images } = this.props;
+    const { images, links, projectNames } = this.props; // Add an array of links and texts corresponding to each image
 
     return (
       <div className="image-slider">
         <div className="image-container">
-          <img
-            src={images[currentIndex]}
-            alt={`${currentIndex + 1}`}
-            className="image"
-          />
+          <a href={links[currentIndex]} target="_blank" rel="noopener noreferrer">
+            {/* Wrap the <img> tag with <a> tag and add target and rel attributes for opening the link in a new tab */}
+            <img
+              src={images[currentIndex]}
+              alt={`${currentIndex + 1}`}
+              className="image"
+            />
+          </a>
+          <p className="image-text">{projectNames[currentIndex]}</p>
         </div>
         <button onClick={this.goToPrevImage}>
           Prev
