@@ -1,0 +1,40 @@
+.fade-in {
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    text-align: center;
+  }
+
+/* Set up the typing animation */
+.typing-text {
+    display: inline-block;
+    white-space: pre-wrap;
+    text-align: center;
+    animation: typing 3s steps(calc(40 * var(--length)), end);
+    font-style: italic;
+  }
+  
+  /* Keyframes for the typing animation */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
