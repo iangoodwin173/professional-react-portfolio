@@ -15,7 +15,7 @@
   .nav-item a {
     color: #CCB9AB;
     text-decoration: none;
-    font-size: large;
+    font-size: 20px;
     margin: 10px;
   }
  
@@ -23,5 +23,6 @@
   .nav a:hover {
     color: white; /* Optional hover color */
     text-decoration: underline;
+    font-size: 22px;
   }
   

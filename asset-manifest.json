@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.584b0e68.css",
+    "main.js": "/static/js/main.60065733.js",
+    "static/js/787.ed2b4935.chunk.js": "/static/js/787.ed2b4935.chunk.js",
+    "static/media/geopairing.png": "/static/media/geopairing.ef4207d76e2ac635fd7a.png",
+    "static/media/coding-quiz.png": "/static/media/coding-quiz.186e123e89921eeda0f1.png",
+    "static/media/workday-scheduler.png": "/static/media/workday-scheduler.5feaad3b7da5810f2598.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.1f13477ca035a9ac0776.jpg",
+    "static/media/Golf.ttf": "/static/media/Golf.de9e5471d7dd4077602e.ttf",
+    "static/media/GolfBold.ttf": "/static/media/GolfBold.c6857977356aa53feb20.ttf",
+    "static/media/GolfBoldItalic.ttf": "/static/media/GolfBoldItalic.2592f9663002af47c813.ttf",
+    "static/media/GolfItalic.ttf": "/static/media/GolfItalic.d9e60abc81efad8ceb14.ttf",
+    "static/media/pw-gen.png": "/static/media/pw-gen.d3a98544f6eea66b190a.png",
+    "index.html": "/index.html",
+    "main.584b0e68.css.map": "/static/css/main.584b0e68.css.map",
+    "main.60065733.js.map": "/static/js/main.60065733.js.map",
+    "787.ed2b4935.chunk.js.map": "/static/js/787.ed2b4935.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.584b0e68.css",
+    "static/js/main.60065733.js"
+  ]
+}
